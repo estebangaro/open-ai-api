@@ -38,10 +38,4 @@ public class OpenAPIController : ControllerBase
 
         return Ok(new { Response = completionResult?.Choices?.FirstOrDefault()?.Message?.Content ?? "Respuesta no determinada." });
     }
-
-    [HttpGet(Name = "GetOpenAPI")]
-    public IActionResult Get()
-    {
-        return Ok();
-    }
 }
