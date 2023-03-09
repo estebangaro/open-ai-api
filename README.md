@@ -1,6 +1,6 @@
 # open-ai-api
 
-Solución que tiene cono proposito ejemplificar el consumo de la API de Open AI referente al modelo de lenguaje basado en chat *gpt-3.5-turbo* mediante el uso del SDK para .NET de betalgo (https://github.com/betalgo/openai).
+Solución que tiene como proposito ejemplificar el consumo de la API de Open AI referente al modelo de lenguaje basado en chat *gpt-3.5-turbo* mediante el uso del SDK para .NET de betalgo (https://github.com/betalgo/openai).
 
 Los tipos de proyectos utilizados en esta solución son:
 
