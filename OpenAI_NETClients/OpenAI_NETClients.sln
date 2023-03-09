@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_ConsoleApp", "OpenAI_ConsoleApp\OpenAI_ConsoleApp.csproj", "{2DFA05D4-8E71-4CED-A009-60A724F6AC0E}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "OpenAI_AngularApp", "OpenAI_AngularAndAspNETCoreApp\angularapp\OpenAI_AngularApp.esproj", "{52FBFCFE-6ED8-44EF-9C88-3704734D0073}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAI_WebApi", "OpenAI_AngularAndAspNETCoreApp\webapi\OpenAI_WebApi.csproj", "{DB9DB768-2380-419F-A45B-1D7BC95FAFC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI_HttpClient", "OpenAI_HttpClient\OpenAI_HttpClient.csproj", "{9B7FB7E8-DDBB-4AC3-8DC9-CD2858B165D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAI_WindowsFormsApp", "OpenAI_WindowsFormsApp\OpenAI_WindowsFormsApp.csproj", "{EF84C6DC-16C1-497A-8D76-4B77CD688D56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DFA05D4-8E71-4CED-A009-60A724F6AC0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFA05D4-8E71-4CED-A009-60A724F6AC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFA05D4-8E71-4CED-A009-60A724F6AC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFA05D4-8E71-4CED-A009-60A724F6AC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FBFCFE-6ED8-44EF-9C88-3704734D0073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FBFCFE-6ED8-44EF-9C88-3704734D0073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FBFCFE-6ED8-44EF-9C88-3704734D0073}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{52FBFCFE-6ED8-44EF-9C88-3704734D0073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FBFCFE-6ED8-44EF-9C88-3704734D0073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FBFCFE-6ED8-44EF-9C88-3704734D0073}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB9DB768-2380-419F-A45B-1D7BC95FAFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9DB768-2380-419F-A45B-1D7BC95FAFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9DB768-2380-419F-A45B-1D7BC95FAFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9DB768-2380-419F-A45B-1D7BC95FAFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7FB7E8-DDBB-4AC3-8DC9-CD2858B165D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7FB7E8-DDBB-4AC3-8DC9-CD2858B165D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7FB7E8-DDBB-4AC3-8DC9-CD2858B165D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7FB7E8-DDBB-4AC3-8DC9-CD2858B165D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF84C6DC-16C1-497A-8D76-4B77CD688D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF84C6DC-16C1-497A-8D76-4B77CD688D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF84C6DC-16C1-497A-8D76-4B77CD688D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF84C6DC-16C1-497A-8D76-4B77CD688D56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4686F931-42FB-444D-8048-9528F27C096F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="row" style="margin-top:2em;">
+    <div class="col">
+      <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">¡Open AI API Angular Test Client!</h4>
+        <p>The OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code. We offer a spectrum of models with different levels of power suitable for different tasks, as well as the ability to fine-tune your own custom models. These models can be used for everything from content generation to semantic search and classification.</p>
+        <hr>
+        <p class="mb-0">Para más información visita: <a href="https://platform.openai.com/docs/introduction/overview">OPEN AI API OVERVIEW</a>.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-header">
+          <div class="row">
+            <div class="col-11">
+              ¡Pregúntame algo!
+            </div>
+            <div class="col-1" style="text-align:right">
+              <div class="spinner-border text-primary" role="status" *ngIf="loading">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <div class="input-group mb-3">
+              <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03" (click)="sendQuestion()" >Envíar</button>
+              <input type="text" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload" [(ngModel)]="txtQuestion">
+            </div>
+            <footer class="blockquote-footer" *ngIf="txtResponse">{{txtResponse}}</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" *ngIf="responses.length > 0">
+    <div class="col">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item" *ngFor="let response of responses; index as i; last as isLast">
+          <h2 class="accordion-header" id="heading{{i}}">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse'+i" aria-expanded="true" [attr.aria-controls]="'collapse'+i">
+              {{response.question}}
+            </button>
+          </h2>
+          <div id="collapse{{i}}" class="accordion-collapse collapse" [ngClass]="{'show': isLast }" [attr.aria-labelledby]="'heading'+i" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Chat GPT: </strong>{{response.response}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
